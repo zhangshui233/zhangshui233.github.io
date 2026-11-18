@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export": "next build && node sync-docs.js && node sync-site.js",
+    "pages": "next build && node sync-docs.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "framer-motion": "^14.2.0",

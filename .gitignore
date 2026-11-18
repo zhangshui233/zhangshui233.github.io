@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# 本地精简产物（GitHub Pages 用 /docs，不需要 site/）
+/site/
+
 # production
 /build
 
